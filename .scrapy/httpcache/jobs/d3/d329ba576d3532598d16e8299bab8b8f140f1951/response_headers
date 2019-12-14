@@ -1,9 +1,0 @@
-Server: nginx
-Date: Sat, 14 Dec 2019 18:20:58 GMT
-Content-Type: text/html;charset=utf-8
-Set-Cookie: JCLK=1;Path=/;Domain=.indeed.com;Expires=Mon, 13-Jan-2020 18:20:58 GMT
-Set-Cookie: CLK=875a2d1ef1bdb1a1;Path=/
-Expires: Thu, 01 Jan 1970 00:00:00 GMT
-Cache-Control: private
-Location: /viewjob?jk=875a2d1ef1bdb1a1&from=serp&vjs=3
-Lb_Pool: mesos_external_pool

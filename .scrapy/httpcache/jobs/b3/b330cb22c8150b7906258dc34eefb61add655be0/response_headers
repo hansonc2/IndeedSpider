@@ -1,9 +1,0 @@
-Server: nginx
-Date: Sat, 14 Dec 2019 18:20:56 GMT
-Content-Type: text/html;charset=utf-8
-Set-Cookie: JCLK=1;Path=/;Domain=.indeed.com;Expires=Mon, 13-Jan-2020 18:20:56 GMT
-Set-Cookie: oconv="fodnwrWkJvxhgibpGFuZwM61xAIq-Y4R8xzDLHPnWGvMWCYnEh8wGG8WwMP7GreBDyKK6TOCoa8sH6TaNOJTJ3d9LamDfRm1oRYIQcrGbZU=";Version=1;Path=/;Domain=.conv.indeed.com;Expires=Mon, 13-Jan-2020 18:20:56 GMT;Max-Age=2592000
-Expires: Thu, 01 Jan 1970 00:00:00 GMT
-Cache-Control: private
-Location: https://www.indeed.com/viewjob?jk=d769c625854d07e7&from=serp&vjs=3
-Lb_Pool: mesos_external_pool

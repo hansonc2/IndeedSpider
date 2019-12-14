@@ -1,9 +1,0 @@
-Server: nginx
-Date: Sat, 14 Dec 2019 18:21:02 GMT
-Content-Type: text/html;charset=utf-8
-Set-Cookie: JCLK=1;Path=/;Domain=.indeed.com;Expires=Mon, 13-Jan-2020 18:21:02 GMT
-Set-Cookie: CLK=6e45cf9d8fbadf99;Path=/
-Expires: Thu, 01 Jan 1970 00:00:00 GMT
-Cache-Control: private
-Location: https://us.conv.indeed.com/rc/clk?jk=6e45cf9d8fbadf99&ctk=1ds2q7pk3p7kp800&t=cr&rctype=oth&orgclktk=1ds2q8u6hhdqq800&vjs=3&wwwho=4m_xAU4HGQbAlJdZTkhlA8hEG_rFObn1&iast=1
-Lb_Pool: mesos_external_pool
