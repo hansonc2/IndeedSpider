@@ -14,15 +14,15 @@ scrapy crawl jobs -a position='software engineer' -a city='chicago' -a state='IL
 ```
 
 ## Job Fields
-*title
-*employer
-*employer_link
-*rating 
-*location
-*salary
-*date
-*url
-*description
+* title
+* employer
+* employer_link
+* rating
+* location
+* salary
+* date
+* url
+* description
 
 ## Warning
 Indeed's [robots.txtfile](https://www.indeed.com/robots.txt)  allows for crawlers to parse lists of /jobs but **NOT** job pages like /viewjob?.
