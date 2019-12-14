@@ -1,0 +1,17 @@
+Server: nginx
+Date: Tue, 10 Dec 2019 05:32:52 GMT
+Content-Type: text/html;charset=UTF-8
+Set-Cookie: JSESSIONID=2224E41155AD4A0D13574048F3ADCAD2.jasxB_cmh-job1071; Path=/; HttpOnly
+Set-Cookie: JCLK=-1; Domain=.indeed.com; Expires=Thu, 09-Jan-2020 05:32:52 GMT; Path=/
+Set-Cookie: CLK=2888d58f58f9e46f; Path=/
+Set-Cookie: VJP="jk=2888d58f58f9e46f"; Version=1; Max-Age=60000; Expires=Tue, 10-Dec-2019 22:12:52 GMT; Path=/
+Set-Cookie: jasx_pool_id=bad610; path=/
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: block-all-mixed-content; object-src 'none'; form-action 'self' *.indeed.com  https://indeedapply.indeedusercontent.com/callback/ https://6927552.fls.doubleclick.net/ https://8232301.fls.doubleclick.net/; frame-src 'self' *.indeed.com  https://www.google.com/recaptcha/ https://indeedapply.indeedusercontent.com/callback/ https://6927552.fls.doubleclick.net/ https://8232301.fls.doubleclick.net/ https://siteintercept.qualtrics.com/ https://indeed.az1.qualtrics.com/ https://d2vgyo9p2so9ux.cloudfront.net; frame-ancestors 'self' *.indeed.com  ; default-src 'self' 'unsafe-inline' data: *.indeed.com   d26f2q6o1ir0mj.cloudfront.net d3keo50hbbbkoq.cloudfront.net d2q79iu7y748jz.cloudfront.net d3s4xzh46vzktb.cloudfront.net d1ymdoy4af119w.cloudfront.net d3fw5vlhllyvee.cloudfront.net https://www.google-analytics.com/ https://www.facebook.com/tr/ https://sb.scorecardresearch.com https://connect.facebook.net *.serving-sys.com https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/ chart.apis.google.com https://pp.d2-apps.net/v1/impressions/log https://ad.doubleclick.net https://www.googletagmanager.com/gtag/js https://adservice.google.com https://stats.g.doubleclick.net https://zn9nl8ranrrddpdlx-indeed.siteintercept.qualtrics.com https://siteintercept.qualtrics.com https://privacyportal.onetrust.com https://d2wxa728toflcg.cloudfront.net https://fonts.gstatic.com/ https://fonts.googleapis.com/;
+Pragma: no-cache
+Cache-Control: no-store, no-cache, must-revalidate, private
+Expires: Tue, 10 Dec 2019 05:31:52 GMT
+Location: https://www.indeed.com/viewjob?cmp=Nexgen-Packaging-LLC&t=Customer+Service+Associate&jk=2888d58f58f9e46f&vjs=3
+X-Content-Type-Options: nosniff
+Vary: User-Agent
+Lb_Pool: jasx_pool

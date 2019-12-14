@@ -1,0 +1,15 @@
+Server: nginx
+Date: Sat, 14 Dec 2019 16:38:47 GMT
+Set-Cookie: JSESSIONID=F837DE86067347D374C4E870F9D9C9F2.jasxB_iad-job28; Path=/; HttpOnly
+Set-Cookie: INDEED_CSRF_TOKEN=XZGCkzhsprVp6yyUIxYOKERDQXWe70rE; Path=/
+Set-Cookie: JCLK=-1; Domain=.indeed.com; Expires=Mon, 13-Jan-2020 16:38:47 GMT; Path=/
+Set-Cookie: RCLK=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+Set-Cookie: adconv="-6NYlbfkN0DjHMPxrqUrDJ1Vq2s1q_Fpuav-wkZCsqtw2ozeGMMhIq4Z3Kn6GbAVYl3lFo6t_DYAeh3avXQMZFjqX4yNAshlOxvOAU_lfsT1UBmNSHHa8tnXe6sYaiepy80g8jfM7_cDPjm6OPxd_GGlHXU_AxP9nYZTbNxbIukTwX4p57zARVMDmZF-HMEN"; Domain=.conv.indeed.com; Expires=Mon, 13-Jan-2020 16:38:47 GMT; Path=/pagead/conv/4223321615431089/
+Set-Cookie: jasx_pool_id=998dcf; path=/
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: block-all-mixed-content; object-src 'none'; form-action 'self' *.indeed.com  https://indeedapply.indeedusercontent.com/callback/ https://6927552.fls.doubleclick.net/ https://8232301.fls.doubleclick.net/; frame-src 'self' *.indeed.com  https://www.google.com/recaptcha/ https://indeedapply.indeedusercontent.com/callback/ https://6927552.fls.doubleclick.net/ https://8232301.fls.doubleclick.net/ https://siteintercept.qualtrics.com/ https://indeed.az1.qualtrics.com/ https://d2vgyo9p2so9ux.cloudfront.net; frame-ancestors 'self' *.indeed.com  ; default-src 'self' 'unsafe-inline' data: *.indeed.com   d26f2q6o1ir0mj.cloudfront.net d3keo50hbbbkoq.cloudfront.net d2q79iu7y748jz.cloudfront.net d3s4xzh46vzktb.cloudfront.net d1ymdoy4af119w.cloudfront.net d3fw5vlhllyvee.cloudfront.net https://www.google-analytics.com/ https://www.facebook.com/tr/ https://sb.scorecardresearch.com https://connect.facebook.net *.serving-sys.com https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/ chart.apis.google.com https://pp.d2-apps.net/v1/impressions/log https://ad.doubleclick.net https://www.googletagmanager.com/gtag/js https://adservice.google.com https://stats.g.doubleclick.net https://zn9nl8ranrrddpdlx-indeed.siteintercept.qualtrics.com https://siteintercept.qualtrics.com https://privacyportal.onetrust.com https://d2wxa728toflcg.cloudfront.net https://fonts.gstatic.com/ https://fonts.googleapis.com/;
+P3P: policyref="http://www.indeed.com/pagead/p3p.xml", CP="NOI DEV PSA PSD IVA PVD OTP OUR OTR IND OTC"
+Cache-Control: private
+Location: https://www.indeed.com/viewjob?cmp=SERVPRO-of-Elgin%2FNorthwest-Kane-County&t=Restoration+Content+Manager&jk=05c81c650b46e08c&sjdu=QwrRXKrqZ3CNX5W-O9jEve3FDQOaNjksBSd__vnQ0bbXPs-gol0tSG1lCEDOqc0yRb_StoMkglKMQ9MEm8zORvwflcHk6MxmWp6lov8YEgM&adid=326431771&pub=4a1b367933fd867b19b072952f68dceb&vjs=3
+X-Content-Type-Options: nosniff
+Lb_Pool: jasx_pool

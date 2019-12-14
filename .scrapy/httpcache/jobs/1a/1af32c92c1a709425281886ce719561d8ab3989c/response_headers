@@ -1,0 +1,11 @@
+Server: nginx
+Date: Mon, 09 Dec 2019 20:52:34 GMT
+Set-Cookie: CTK=1drm6upqjp70i800; Domain=.indeed.com; Expires=Sat, 13-Dec-2036 15:41:05 GMT; Path=/
+Set-Cookie: ctkgen=1; Expires=Mon, 09-Dec-2019 20:55:34 GMT; Path=/
+Set-Cookie: JSESSIONID=E3363EFAF531CE9F9DBD20E6EF1D62EA.jasxB_cmh-job1015; Path=/; HttpOnly
+Set-Cookie: INDEED_CSRF_TOKEN=TTiOnELO630dbjEcXuBiuTExa1Tu7ud5; Path=/
+X-Frame-Options: SAMEORIGIN
+Location: https://www.indeed.com/jobs?q=Software&l=wheaton,+IL&start30
+X-Content-Type-Options: nosniff
+Vary: User-Agent
+Lb_Pool: jasx_pool

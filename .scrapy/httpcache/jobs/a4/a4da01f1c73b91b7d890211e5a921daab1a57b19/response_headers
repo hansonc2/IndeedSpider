@@ -1,0 +1,15 @@
+Server: nginx
+Date: Tue, 10 Dec 2019 05:32:53 GMT
+Set-Cookie: JSESSIONID=0196431034C78F3F0FD6AC8AF095BA2A.jasxB_cmh-job1031; Path=/; HttpOnly
+Set-Cookie: INDEED_CSRF_TOKEN=YugRRlLO9RHLBpAGodQ6PmZlvYp4kEZw; Path=/
+Set-Cookie: JCLK=-1; Domain=.indeed.com; Expires=Thu, 09-Jan-2020 05:32:53 GMT; Path=/
+Set-Cookie: RCLK=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+Set-Cookie: adconv="-6NYlbfkN0DhVAxkc_TxySVbUOs6bxWYWOfhmDTNcVTjFFBAY1FXZz6G2ZVf9e4M_xXbr-GasnZsH-nakdoPp4KCgxzaWTj2ebET8zUMdXiFCoDPmbjOUrhSrdWOJVP2SFqL717rqtIy4E98jdSxwGYihYyvcZBU74Ugo9bZtBldKemMqtsGwGdLtlPMoJAL"; Domain=.conv.indeed.com; Expires=Thu, 09-Jan-2020 05:32:53 GMT; Path=/pagead/conv/210908886952977/
+Set-Cookie: jasx_pool_id=6fa77b; path=/
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: block-all-mixed-content; object-src 'none'; form-action 'self' *.indeed.com  https://indeedapply.indeedusercontent.com/callback/ https://6927552.fls.doubleclick.net/ https://8232301.fls.doubleclick.net/; frame-src 'self' *.indeed.com  https://www.google.com/recaptcha/ https://indeedapply.indeedusercontent.com/callback/ https://6927552.fls.doubleclick.net/ https://8232301.fls.doubleclick.net/ https://siteintercept.qualtrics.com/ https://indeed.az1.qualtrics.com/ https://d2vgyo9p2so9ux.cloudfront.net; frame-ancestors 'self' *.indeed.com  ; default-src 'self' 'unsafe-inline' data: *.indeed.com   d26f2q6o1ir0mj.cloudfront.net d3keo50hbbbkoq.cloudfront.net d2q79iu7y748jz.cloudfront.net d3s4xzh46vzktb.cloudfront.net d1ymdoy4af119w.cloudfront.net d3fw5vlhllyvee.cloudfront.net https://www.google-analytics.com/ https://www.facebook.com/tr/ https://sb.scorecardresearch.com https://connect.facebook.net *.serving-sys.com https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/ chart.apis.google.com https://pp.d2-apps.net/v1/impressions/log https://ad.doubleclick.net https://www.googletagmanager.com/gtag/js https://adservice.google.com https://stats.g.doubleclick.net https://zn9nl8ranrrddpdlx-indeed.siteintercept.qualtrics.com https://siteintercept.qualtrics.com https://privacyportal.onetrust.com https://d2wxa728toflcg.cloudfront.net https://fonts.gstatic.com/ https://fonts.googleapis.com/;
+P3P: policyref="http://www.indeed.com/pagead/p3p.xml", CP="NOI DEV PSA PSD IVA PVD OTP OUR OTR IND OTC"
+Cache-Control: private
+Location: https://www.indeed.com/viewjob?jk=e4d501444dc43624&q=Software&l=wheaton%2C+IL&from=web&advn=210908886952977&adid=316220553&sjdu=RjrjP3TXJPtsBLro8K2Df0eyZufxG4-d7TYf78ErEElqOKNzJSU6jNy6SYTmMDBX5B6n1m6-clrgeJ9lT_OSyNM7hw_E48gt40O8og-gXrQm9VGp3SCmBM9b3_XvxmbzPD02w45A5DW6BMvKuAbafYFht9HxLLx8VyT2Wy6mQa0vSo8GlK_ZY7ebyw9_zaZzMP1aQuWsZXJveyLSbiUYGjQ2b9Il319ZICwwVIqdchs&acatk=1drn4nhg6p94s800&pub=4a1b367933fd867b19b072952f68dceb&vjs=3
+X-Content-Type-Options: nosniff
+Lb_Pool: jasx_pool

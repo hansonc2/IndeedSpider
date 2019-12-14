@@ -1,0 +1,14 @@
+Server: nginx
+Date: Sat, 14 Dec 2019 18:21:04 GMT
+Content-Type: text/html; charset=utf-8
+Content-Encoding: gzip
+Content-Language: en
+Set-Cookie: dtk=1ds2q90ab0000eoi; expires=Mon, 13-Dec-2021 18:21:04 GMT; Max-Age=63072000; Path=/
+Set-Cookie: csrftoken=bf6Bj3t0ig6hRRt1TmCEUrdB99IC0TKucuEGtGLPxD4B5ye3MgHj8yhLy3SgdojY; expires=Sat, 12-Dec-2020 18:21:04 GMT; Max-Age=31449600; Path=/; Secure
+Set-Cookie: sessionid=ex8oosi75w28saunwl039eyjrt040k7j; expires=Sat, 28-Dec-2019 18:21:04 GMT; HttpOnly; Max-Age=1209600; Path=/; Secure
+Vary: Accept-Language, Cookie, Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+Lb_Pool: mesos_external_pool
+Strict-Transport-Security: max-age=31536000

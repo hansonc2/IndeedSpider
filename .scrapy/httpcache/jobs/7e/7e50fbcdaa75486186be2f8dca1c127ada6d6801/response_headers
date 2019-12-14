@@ -1,0 +1,13 @@
+Server: nginx
+Date: Sat, 14 Dec 2019 18:20:25 GMT
+Set-Cookie: CTK=1ds2q7pk134d2000; Domain=.indeed.com; Expires=Thu, 18-Dec-2036 13:08:56 GMT; Path=/
+Set-Cookie: ctkgen=1; Expires=Sat, 14-Dec-2019 18:23:25 GMT; Path=/
+Set-Cookie: JSESSIONID=426F9246F57F82A964C0B08322EE51AB.jasxA_cmh-job1083; Path=/; HttpOnly
+Set-Cookie: INDEED_CSRF_TOKEN=SSRGcgmIRMtpRSf9MGl92hQbdxB7cN8s; Path=/
+Set-Cookie: jasx_pool_id=6646a9; path=/
+X-Frame-Options: SAMEORIGIN
+Location: https://www.indeed.com/jobs?q=software+engineer+intern&l=wheaton,+IL&start20
+X-Content-Type-Options: nosniff
+Vary: User-Agent
+Lb_Pool: jasx_pool
+Cache-Control: private
