@@ -1,4 +1,4 @@
-# IndeedSpider
+# IndeedSpider 🕸🕷
 Scrapy spider for retrieving job postings from Indeed.com
 
 ## Requirements
@@ -14,17 +14,25 @@ scrapy crawl jobs -a position='software engineer' -a city='chicago' -a state='IL
 ```
 
 ## Job Fields
-* title
-* employer
-* employer_link
-* rating
-* location
-* salary
-* date
-* url
-* description
+* Title
+* Employer
+* Employer_link
+* Rating
+* Location
+* Salary
+* Date
+* Url
+* Description
 
-## Warning
+##To Do:
+- [ ] Update CSS selection rule set. 
+- [ ] Update CLI options/args
+- [ ] Add requirements parsing rules
+- [ ] Unit Tests
+- [ ] CI
+
+## Warning!
+
 Indeed's [robots.txtfile](https://www.indeed.com/robots.txt)  allows for crawlers to parse lists of /jobs but **NOT** job pages like /viewjob?.
 
 to bypass these bot rules, set 'ROBOTSTXT_OBEY = False' in settings.py
