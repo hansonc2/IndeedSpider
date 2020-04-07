@@ -12,9 +12,9 @@ class JobSpider(scrapy.Spider):
     'www.indeed.com'
     ]
 
-    def __init__(self, position=None, city=None, state=None, *args, **kwargs):
+    def __init__(self, title=None, city=None, state=None, *args, **kwargs):
         super(JobSpider, self).__init__(*args, **kwargs)
-        query = '?q='+'+'.join(position.split(' ')) + '&l=' +'+'.join(city.split(' ')) + '%2C+' +state
+        query = '?q='+'+'.join(title.split(' ')) + '&l=' +'+'.join(city.split(' ')) + '%2C+' +state
         self.city = city
         self.state = state
         self.start_url = 'https://www.indeed.com/jobs'+ query
