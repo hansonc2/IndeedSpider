@@ -17,4 +17,12 @@ class Job(scrapy.Item):
     url = scrapy.Field()
     description = scrapy.Field()
     last_updated = scrapy.Field(serializer=str)
-    pass
+
+
+
+    def __init__(self):
+        pass
+
+    def parse_job_goals(self):
+        description = self.get('description', 'no description')
+

@@ -5,12 +5,17 @@ Scrapy spider for retrieving job postings from Indeed.com
 scrapy==1.8.0
 
 ## Usage
+The JobSpider up to 3 arguments
 ```
-scrapy crawl jobs -a position='software engineer' -a city='chicago' -a state='IL'
+title= '', city='', state=''
 ```
-Output to csv:
+
 ```
-scrapy crawl jobs -a position='software engineer' -a city='chicago' -a state='IL' -o jobs.csv
+scrapy crawl jobs -a title='software engineer' -a city='chicago' -a state='IL'
+```
+You can even output to csv:
+```
+scrapy crawl jobs -a title='software engineer' -a city='chicago' -a state='IL' -o jobs.csv
 ```
 
 ## Job Fields
@@ -25,11 +30,11 @@ scrapy crawl jobs -a position='software engineer' -a city='chicago' -a state='IL
 * Description
 
 ## To Do:
-- [ ] Update CSS selection rule set. 
-- [ ] Update CLI options/args
-- [ ] Add requirements parsing rules
-- [ ] Unit Tests
-- [ ] CI
+- [ ] Update CSS selection rule set for all fields. 
+- [ ] Update CLI options/args.
+- [ ] Add position description parsing.
+- [ ] Add custom middleware.
+- [ ] Deploy, CI.
 
 ## Warning!
 

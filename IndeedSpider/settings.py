@@ -46,9 +46,9 @@ ROBOTSTXT_OBEY = False
 
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
-#SPIDER_MIDDLEWARES = {
-#    'IndeedSpider.middlewares.IndeedspiderSpiderMiddleware': 543,
-#}
+SPIDER_MIDDLEWARES = {
+    'IndeedSpider.middlewares.IndeedspiderSpiderMiddleware': 543,
+}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
@@ -64,9 +64,11 @@ ROBOTSTXT_OBEY = False
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'IndeedSpider.pipelines.IndeedspiderPipeline': 300,
-#}
+ITEM_PIPELINES = {
+    'IndeedSpider.pipelines.IndeedspiderPipeline': 300,
+}
+
+
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html

@@ -8,4 +8,4 @@
 
 class IndeedspiderPipeline(object):
     def process_item(self, item, spider):
-        return item
+        return ('from pipelines:', item)
