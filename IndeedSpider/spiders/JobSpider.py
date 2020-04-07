@@ -14,13 +14,15 @@ class JobSpider(scrapy.Spider):
 
     def __init__(self, position=None, city=None, state=None, *args, **kwargs):
         super(JobSpider, self).__init__(*args, **kwargs)
-        query = '?q='+'+'.join(position.split(' ')) + '&l=' +city+ '%2C+' +state
+        query = '?q='+'+'.join(position.split(' ')) + '&l=' +'+'.join(city.split(' ')) + '%2C+' +state
+        self.city = city
+        self.state = state
         self.start_url = 'https://www.indeed.com/jobs'+ query
 
     def start_requests(self):
         urls = [self.start_url]
         #add urls for next pages
-        for i in range(10,80,10):
+        for i in range(10,130,10):
             urls.append(urls[0] + '&start' + str(i))
         for url in urls:
             yield scrapy.Request(url=url, callback=self.parse)
@@ -47,7 +49,7 @@ class JobSpider(scrapy.Spider):
 
         job["employer_link"] = response.xpath("//div[@class='jobsearch-InlineCompanyRating icl-u-xs-mt--xs  jobsearch-DesktopStickyContainer-companyrating']/div[@class='icl-u-lg-mr--sm icl-u-xs-mr--xs']/a/@href").extract()
         job["rating"] = response.xpath("//div[@class='sjcl']/span[@class='ratingsDisplay']/a/span/text()").extract()
-        job["location"] = response.xpath("//div[@class='jobsearch-InlineCompanyRating icl-u-xs-mt--xs  jobsearch-DesktopStickyContainer-companyrating']/div/text()").extract()[-1]
+        job["location"] = self.city + ',' + self.state
         job["salary"] = response.xpath("//div[@class='jobsearch-JobMetadataHeader-item ']/span/text()").extract()
         job["date"] = response.xpath("//div[@class='jobsearch-JobMetadataFooter']/text()").extract()
         job["description"] = response.xpath("//div[@class='jobsearch-jobDescriptionText']/descendant-or-self::*/text()").extract()
