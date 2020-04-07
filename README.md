@@ -22,7 +22,7 @@ scrapy crawl jobs -a title='software engineer' -a city='chicago' -a state='IL' -
 * Title
 * Employer
 * Employer_link
-* Rating
+* Rating 
 * Location
 * Salary
 * Date
