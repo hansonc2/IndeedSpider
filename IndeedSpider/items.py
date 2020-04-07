@@ -11,7 +11,6 @@ class Job(scrapy.Item):
     title = scrapy.Field()
     employer = scrapy.Field()
     employer_link = scrapy.Field()
-    rating = scrapy.Field()
     location = scrapy.Field()
     salary = scrapy.Field()
     date = scrapy.Field()

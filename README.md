@@ -24,7 +24,7 @@ scrapy crawl jobs -a position='software engineer' -a city='chicago' -a state='IL
 * Url
 * Description
 
-##To Do:
+## To Do:
 - [ ] Update CSS selection rule set. 
 - [ ] Update CLI options/args
 - [ ] Add requirements parsing rules

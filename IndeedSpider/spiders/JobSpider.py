@@ -48,7 +48,6 @@ class JobSpider(scrapy.Spider):
             job["employer"] = response.xpath("//div[@class='jobsearch-InlineCompanyRating icl-u-xs-mt--xs  jobsearch-DesktopStickyContainer-companyrating']/div[@class='icl-u-lg-mr--sm icl-u-xs-mr--xs']/text()").extract()
 
         job["employer_link"] = response.xpath("//div[@class='jobsearch-InlineCompanyRating icl-u-xs-mt--xs  jobsearch-DesktopStickyContainer-companyrating']/div[@class='icl-u-lg-mr--sm icl-u-xs-mr--xs']/a/@href").extract()
-        job["rating"] = response.xpath("//div[@class='sjcl']/span[@class='ratingsDisplay']/a/span/text()").extract()
         job["location"] = self.city + ',' + self.state
         job["salary"] = response.xpath("//div[@class='jobsearch-JobMetadataHeader-item ']/span/text()").extract()
         job["date"] = response.xpath("//div[@class='jobsearch-JobMetadataFooter']/text()").extract()
