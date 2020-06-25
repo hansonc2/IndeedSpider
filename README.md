@@ -30,7 +30,7 @@ scrapy crawl jobs -a title='software engineer' -a city='chicago' -a state='IL' -
 * Description
 
 ## To Do:
-- [ ] Update CSS selection rule set for all fields. 
+- [ ] Update CSS selection rule set for all fields (Indeed changes these rules often... sorry if you get an error :( ). 
 - [ ] Update CLI options/args.
 - [ ] Add position description parsing.
 - [ ] Add custom middleware.
