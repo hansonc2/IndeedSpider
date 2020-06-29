@@ -2,7 +2,7 @@
 Scrapy spider for retrieving job postings from Indeed.com
 
 ## Requirements
-scrapy==1.8.0
+scrapy==2.2.0
 
 ## Usage
 The JobSpider up to 3 arguments
